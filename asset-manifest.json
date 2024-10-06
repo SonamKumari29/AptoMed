@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AptoMed/static/css/main.21a00558.css",
+    "main.js": "/AptoMed/static/js/main.f2c2a52e.js",
+    "index.html": "/AptoMed/index.html",
+    "main.21a00558.css.map": "/AptoMed/static/css/main.21a00558.css.map",
+    "main.f2c2a52e.js.map": "/AptoMed/static/js/main.f2c2a52e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21a00558.css",
+    "static/js/main.f2c2a52e.js"
+  ]
+}
