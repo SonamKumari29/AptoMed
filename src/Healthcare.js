@@ -5,7 +5,7 @@ import { AptosClient, FaucetClient, AptosAccount, HexString } from 'aptos';
 const client = new AptosClient("https://fullnode.devnet.aptoslabs.com");
 const faucetClient = new FaucetClient(
   "https://faucet.devnet.aptoslabs.com", 
-  "https://fullnode.devnet.aptoslabs.com" // Full node endpoint
+  "https://fullnode.devnet.aptoslabs.com" 
 );
 
 const HealthCare = () => {
@@ -62,7 +62,7 @@ const HealthCare = () => {
 
   return (
     <div className='container'>
-      <h1 className="title">AptoMed</h1>
+      <h1 className="title">AptoMed<br></br></h1>
       {account && <p className='account-info'>Account Address: {account.address().toString()}</p>}
       {balance && <p className='account-info'>Account Balance: {balance / 1000000} APT</p>}
 
